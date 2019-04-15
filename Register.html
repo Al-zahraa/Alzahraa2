@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> My website - Register </title>
+		<meta charset="utf-8"/>
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+	</head>
+
+	<body>
+    <div class="container-fluid" id="main">
+    <div class="text-center">
+		<div class="head">
+			<header>
+            <nav class="navbar navbar-inverse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">HomePage</a></li>
+                    <li><a href="Books.html">Books</a></li>
+                    <li><a href="Films.html">Films</a></li>
+                    <li><a href="Music.html">Music</a></li>
+                    <li><a href="Usefull_links.html">Usefull links</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Contact_me.html"> <span class="glyphicon glyphicon-envelope"></span> Contact me</a></li>
+                    <li class="active"><a href="#"> <span class="glyphicon glyphicon-user"></span> Register</a></li>
+                </ul>
+            </nav>
+            </header>   
+			</h4>
+		</div>
+
+        <div class="content">
+		<div id="register">
+			<form class= "registerForm" method="post" accept-charset="windows-1252">
+    				<label for="name">Name&amp;Surname: </label>  
+    				<input type="text" name="name" width="48px"  required>
+    				
+    			
+    				<label for="DOB">Date Of Birth: </label>  
+    				<input type="date" name="DOB" width="48px" placeholder="" required>
+    				
+    			
+   				 	<label for="email">Email: </label>   
+    				<input type="email" name="email" width="48px"  placeholder="xxx@mail.com" required>
+    				
+    			
+    				<label for="password">password: </label>
+    				<input type="password" name="password" width="48px"  placeholder="MAX 8 charecters" required>
+    				
+    			
+    				<label for="repassword">Re-type password: </label>
+    				<input type="password" name="repassword" width="48px"  placeholder="MAX 8 charecters" required>
+    				
+    			
+    				<label for="gender">Gender: </label><br>
+    				<input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female <input type="radio" name="gender" value="other"> Other<br>
+    				
+    			
+    				<label for="department">Department: </label>
+    				<select name="department">
+   	 							<option value="comp">Computer Engineering</option>
+    							<option value="EE">Electric and Electronic</option>
+    							<option value="CIVIL">Civil Engineering </option>
+    							<option value="MECH">Mechanical Engineering  </option>
+    							<option value="ENV">Environmental Engineering</option>
+    							<option value="CHEM">Chemical engineering </option>
+  					</select>
+    				
+    			 
+    				<label for="aboutme">About Me: </label>
+    				<textarea name="message" cols="83%"></textarea>
+    			 	
+    			 
+    				<label for="photo">Uplod photo: </label>
+    				<input type="file" name="photo" accept="image/*">
+    			 	
+    			 
+    			 	<label for="interests">Mark your interests: </label><br>
+    			 
+    			 		
+    			 			<input type="checkbox" name="interests" value="reading"> Reading  
+    			 			<input type="checkbox" name="interests" value="drawing"> Drawing
+    			 			
+    			 		
+    			 			<input type="checkbox" name="interests" value="photography"> phtography  
+    			 			<input type="checkbox" name="interests" value="Gaming"> Gaming
+    			 			
+    			 		
+    			 			<input type="checkbox" name="interests" value="watersports"> Water Sports  
+    			 			<input type="checkbox" name="interests" value="calegraphy"> Calegraphy
+    			 			
+    			 		
+    			 			<input type="checkbox" name="interests" value="coloring"> Coloring   
+    			 			<input type="checkbox" name="interests" value="biking"> Biking
+    			 			
+    			 		
+    			 			<input type="checkbox" name="interests" value="hicking"> Hicking
+    			 			<input type="checkbox" name="interests" value="fieldsports"> Field sports
+    			 			
+    			 		
+    			 			<input type="checkbox" name="interests" value="iceSports"> Ice Sports
+    			 			<input type="checkbox" name="interests" value="writing"> Writing
+    			 			
+    			 	<input type="submit" value="Submit" onClick="alert('Thank you for registering')">
+    			 	<input type="reset">
+    			 	
+    		</form>
+
+    		<p><a href="index.html"> <img src="media/home icon.png" alt="home icon" height="40" width="40"></a> </p>
+		</div>
+        </div>
+    </div>
+    </div>
+	</body>
+</html>

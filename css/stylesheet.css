@@ -1,0 +1,233 @@
+/*GENERAL STYLING*/
+*{
+	box-sizing : border-box;
+	boarder : 3px solid black;
+
+
+}
+body{
+	text-align: center;
+
+}
+
+header li {
+  float: center;
+  display: block;
+  text-align: center;
+  padding-right: 15px;
+  text-decoration: none;
+  display: inline;
+}
+input[type=text], [type=email], [type=password] , [type=date] , [type=file] ,select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=submit], [type=reset] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.content{
+	padding: 18px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-top: -2%;
+	background-color: #080808;
+	
+}
+
+/* SPECIFIED STYLING */
+.pagTitle{
+
+}
+.content{
+
+}
+
+
+/*FOR INDEX*/
+.indextIntro{
+	margin-top: 2%;
+	width: 70% ;
+	margin-left: 15% ;
+	margin-right: 10%;
+
+}
+.indextText{
+	font-size:20px;
+  	text-align: left;
+  	color:#696969;
+  	
+}
+#me{
+	width: 20%;
+	height: 30%;
+	border-width: 5px;
+	border-radius: 10px ;
+	border-style: solid;
+	float: left;
+	margin-right: 15px;
+
+}
+.indexForm{
+	width: 80% ;
+	margin-left: 10% ;
+	margin-right: 10%;
+	padding: 20px;
+	text-align: left;
+	font-size:15px;
+  	font-weight:bold;
+  	color:#696969;
+}
+/*FOR BOOKS*/
+#books{
+	margin-top: 2%;
+	width: 70% ;
+	margin-left: 15% ;
+	margin-right: 10%;
+}
+.bookCover{
+	float: left;
+	margin-right: 15px;
+	height:15%;
+}
+.bookText{
+	font-size:20px;
+  	text-align: left;
+  	color:#696969;
+  	margin-bottom: 9%;
+}
+/*FOR FILMS*/
+#filmcontent{
+	margin-top: 2%;
+	width: 70% ;
+	margin-left: 15% ;
+	margin-right: 10%;
+}
+.trailor{
+	float: left;
+	margin-right: 15px;
+	width:60%;
+}
+.movieExplain{
+	font-size:20px;
+  	text-align: left;
+  	color:#696969;
+  	margin-bottom: 13%;
+  	margin-top: 10%
+}
+
+/*FOR MUSIC*/
+#songs{
+	margin-top: 2%;
+	width: 70% ;
+	margin-left: 15% ;
+	margin-right: 10%;
+}
+audio{
+	width:80%;
+}
+.title{
+	font-size:20px;
+	font-weight: bold;
+  	text-align: left;
+  	color:#696969;
+}
+.photo{
+	width:70%;
+  	text-align: center;
+  	margin-left: 15% ;
+}
+.text{
+	margin-bottom: 5%;
+	font-size:10px;
+}
+/*FOR USEFULL LINKS*/
+#ulinks{
+	margin-top: 2%;
+	width: 70% ;
+	margin-left: 15% ;
+	margin-right: 10%;
+	text-align: center;
+}
+li{
+	list-style-type: none;
+}
+.Ltitle{
+	text-align: left;
+	margin-left: 30%;
+	padding-top: 3%;
+	font-size:20px;
+}
+.lists{
+	text-align: left;
+	margin-left: 30%;
+	font-size:15px;
+}
+/*FOR CONTACT ME */
+#contact{
+	margin-top: 2%;
+	width: 70% ;
+	margin-left: 15% ;
+	margin-right: 10%;
+	text-align: center;
+}
+textarea{
+	max-width: 100%;
+	padding: 12px 20px;
+  	margin: 8px 0;
+}
+.messageForm{
+	width: 80% ;
+	margin-left: 10% ;
+	margin-right: 10%;
+	padding: 20px;
+	text-align: left;
+	font-size:15px;
+  	font-weight:bold;
+  	color:#696969;
+}
+.contactIcon{
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+/*FOR REGISTER*/
+#register{
+	margin-top: 2%;
+	width: 70% ;
+	margin-left: 15% ;
+	margin-right: 10%;
+	text-align: center;
+
+}
+.registerForm{
+	width: 80% ;
+	margin-left: 10% ;
+	margin-right: 10%;
+	padding: 20px;
+	text-align: left;
+	font-size:15px;
+  	font-weight:bold;
+  	color:#696969;
+}
+
+
+
+
+
+
+

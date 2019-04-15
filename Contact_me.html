@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> My website - Contact me</title>
+		<meta charset="utf-8"/>
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+	</head>
+
+	<body>
+    <div class="container-fluid" id="main">
+    <div class="text-center">
+		<div class="head">
+			<header>
+            <nav class="navbar navbar-inverse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">HomePage</a></li>
+                    <li><a href="Books.html">Books</a></li>
+                    <li><a href="Films.html">Films</a></li>
+                    <li><a href="Music.html">Music</a></li>
+                    <li><a href="Usefull_links.html">Usefull links</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#"> <span class="glyphicon glyphicon-envelope"></span> Contact me</a></li>
+                    <li><a href="Register.html"> <span class="glyphicon glyphicon-user"></span> Register </a></li>
+                </ul>
+            </nav>
+            </header>
+		</div>
+		
+		
+        <div class="content">
+		<div id="contact">
+			<form class= "messageForm"  method="post" accept-charset="windows-1252">
+    				<label for="name">Name&amp;Surname:   </label>  
+    				<input type="text" name="name" width="48px"  required>
+    			
+   				 	<label for="email">Email:   </label>   
+    				<input type="email" name="email" width="48px"  placeholder="XXXX@email.com" required>
+    				
+    				<label for="telephone">Phone Number:   </label>
+    				<input type="text" name="telephone" width="48px"  placeholder="MAX legnth is 11" required>
+    				
+    				<label for="issue">Issue:   </label>
+    				<input type="text" name="issue" width="48px"  required>
+    			 	
+    				<label for="message">Message:   </label><br>
+    				<textarea name="message" cols="83%"></textarea>
+
+    			 	<input type="submit" value="Submit" onClick="alert('youre message is sent')">
+    		</form>
+    		<p>
+    			<font size="6"> <b>&darr; OR &darr;<b> </font><br>
+    			<b>My Email:<b>  zahraa.ossama70@gmail.com <br>
+    			   <a href="https://www.facebook.com/zahraa.ossama" target="_blank"> <img class="contactIcon" src="media/facebook_icon.png" alt="facebook icon" height="30" width="30"></a> 
+    			  <a href="https://www.instagram.com/zahraa_ossama/" target="_blank"> <img class="contactIcon" src="media/instagram_icon.png" alt="instegrame icon" height="30" width="30"></a>
+                  <a href="https://twitter.com/Zehra_a70" target="_blank"> <img class="contactIcon" src="media/twitter_icon.png" alt="twitter icon" height="30" width="30"></a> <br>
+    			   <a href="index.html"> <img class="contactIcon" src="media/home icon.png" alt="home icon" height="50" width="50"></a> 
+    		</p>
+		</div>
+        </div>
+    </div>
+    </div>
+	</body>
+</html>
